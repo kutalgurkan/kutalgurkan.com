@@ -1202,3 +1202,33 @@ input:focus:not(:focus-visible) {
     font-size: 0.55rem;
   }
 }
+
+/* ── Force Light Theme — Override browser dark mode ── */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #fafafa !important;
+    color: #0a0a0a !important;
+  }
+
+  main > section {
+    background-color: #fafafa !important;
+    color: #0a0a0a !important;
+  }
+
+  .hero {
+    background-color: #fafafa !important;
+  }
+
+  .nav-menu {
+    background-color: #fafafa !important;
+    color: #0a0a0a !important;
+  }
+
+  .nav-menu__link {
+    color: #0a0a0a !important;
+  }
+
+  img {
+    filter: none !important;
+  }
+}
