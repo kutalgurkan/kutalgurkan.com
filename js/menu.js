@@ -97,4 +97,34 @@
       closeMenu();
     }
   });
+
+  // Hide header & lang-selector on scroll, show on stop/top
+  var header = document.querySelector('.header');
+  var langSelector = document.querySelector('.lang-selector');
+  var scrollTimer = null;
+
+  sections.forEach(function (section) {
+    var lastScroll = 0;
+    section.addEventListener('scroll', function () {
+      var currentScroll = section.scrollTop;
+
+      if (currentScroll > 50 && !navMenu.classList.contains('is-open')) {
+        header.classList.add('is-hidden');
+        if (langSelector) langSelector.classList.add('is-hidden');
+      }
+
+      lastScroll = currentScroll;
+
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(function () {
+        header.classList.remove('is-hidden');
+        if (langSelector) langSelector.classList.remove('is-hidden');
+      }, 800);
+
+      if (currentScroll <= 10) {
+        header.classList.remove('is-hidden');
+        if (langSelector) langSelector.classList.remove('is-hidden');
+      }
+    });
+  });
 })();

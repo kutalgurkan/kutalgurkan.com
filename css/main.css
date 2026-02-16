@@ -165,6 +165,13 @@ body::after {
   justify-content: center;
   align-items: center;
   padding: 1.5rem var(--section-padding-x);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.header.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%);
 }
 
 .header__inner {
@@ -191,6 +198,13 @@ body::after {
   font-weight: 400;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.lang-selector.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(100%);
 }
 
 .lang-selector__btn {
