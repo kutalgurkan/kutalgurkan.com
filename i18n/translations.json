@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "description": {
+      "tr": "Kutal Gürkan — Müzik Prodüktörü, Söz Yazarı, Besteci, Aranjör, Ses Tasarımcısı",
+      "en": "Kutal Gürkan — Music Producer, Lyricist, Composer, Arranger, Sound Designer",
+      "de": "Kutal Gürkan — Musikproduzent, Texter, Komponist, Arrangeur, Sounddesigner",
+      "es": "Kutal Gürkan — Productor Musical, Letrista, Compositor, Arreglista, Diseñador de Sonido"
+    }
+  },
+  "nav": {
+    "home": { "tr": "Ana Sayfa", "en": "Home", "de": "Startseite", "es": "Inicio" },
+    "about": { "tr": "Hakkımda", "en": "About", "de": "Über mich", "es": "Sobre mí" },
+    "works": { "tr": "İşler", "en": "Works", "de": "Arbeiten", "es": "Trabajos" },
+    "calendar": { "tr": "Takvim", "en": "Calendar", "de": "Kalender", "es": "Calendario" },
+    "media": { "tr": "Medya", "en": "Media", "de": "Medien", "es": "Medios" },
+    "shop": { "tr": "Mağaza", "en": "Shop", "de": "Shop", "es": "Tienda" },
+    "contact": { "tr": "İletişim", "en": "Contact", "de": "Kontakt", "es": "Contacto" }
+  },
+  "placeholder": {
+    "tr": "Yapım aşamasında",
+    "en": "Under construction",
+    "de": "In Arbeit",
+    "es": "En construcción"
+  }
+}

@@ -1,0 +1,31 @@
+:root {
+  /* Colors — Monochrome */
+  --color-black: #0a0a0a;
+  --color-white: #fafafa;
+  --color-white-pure: #ffffff;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e5e5;
+  --color-gray-300: #d4d4d4;
+  --color-gray-400: #a3a3a3;
+  --color-gray-500: #737373;
+  --color-gray-600: #525252;
+  --color-gray-700: #404040;
+  --color-gray-800: #262626;
+  --color-gray-900: #171717;
+
+  /* Typography — Families */
+  --font-primary: 'Outfit', sans-serif;
+  --font-kutico-heading: 'Playfair Display', serif;
+  --font-kutico-body: 'Cormorant Garamond', serif;
+
+  /* Spacing */
+  --section-padding-y: clamp(80px, 10vw, 160px);
+  --section-padding-x: clamp(20px, 5vw, 60px);
+  --content-max-width: 1200px;
+
+  /* Animation */
+  --ease-default: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration-fast: 0.3s;
+  --duration-medium: 0.5s;
+  --duration-slow: 0.8s;
+}
