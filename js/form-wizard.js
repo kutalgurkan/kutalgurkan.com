@@ -125,15 +125,16 @@
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(formData).toString()
     })
-      .then(function () {
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error('Form submission failed: ' + response.status);
+        }
         form.style.display = 'none';
         document.querySelector('.kutico-overlay__progress').style.display = 'none';
         successEl.classList.add('is-visible');
       })
-      .catch(function () {
-        form.style.display = 'none';
-        document.querySelector('.kutico-overlay__progress').style.display = 'none';
-        successEl.classList.add('is-visible');
+      .catch(function (err) {
+        alert('Başvuru gönderilemedi: ' + err.message);
       });
   });
 })();
