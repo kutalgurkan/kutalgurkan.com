@@ -186,11 +186,10 @@ body::after {
 
 /* Language Selector */
 .lang-selector {
-  position: fixed;
-  bottom: 1.5rem;
+  position: absolute;
+  bottom: 2.5rem;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 100;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -199,13 +198,6 @@ body::after {
   font-weight: 400;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.lang-selector.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(-50%) translateY(100%);
 }
 
 .lang-selector__btn {
