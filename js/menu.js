@@ -69,6 +69,7 @@
         link.classList.add('active');
       }
     });
+
   }
 
   hamburger.addEventListener('click', function () {

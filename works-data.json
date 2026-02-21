@@ -1,0 +1,380 @@
+[
+  {
+    "id": "ilhan-sesen_hediyem",
+    "artist": "İlhan Şeşen",
+    "project": "Hediyem",
+    "type": "album",
+    "year": 2018,
+    "role": "Düzenleme",
+    "size": "hero",
+    "gridPosition": "H1",
+    "cover": "assets/covers/ilhan-sesen_hediyem.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/4NMfHFqT5ZonWBzkPsYajS"
+    }
+  },
+  {
+    "id": "nev_bir-nevi-alaturka",
+    "artist": "Nev",
+    "project": "Bir Nev-i Alaturka",
+    "type": "album",
+    "year": 2010,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "hero",
+    "gridPosition": "H2",
+    "cover": "assets/covers/nev_bir-nevi-alaturka.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/50JWFiUpRuGOp0Ee8NpyHR"
+    }
+  },
+  {
+    "id": "yalin_sensiz-olmaz",
+    "artist": "Yalın",
+    "project": "Sensiz Olmaz",
+    "type": "single",
+    "year": 2018,
+    "role": "Düzenleme",
+    "size": "buyuk",
+    "gridPosition": "B1",
+    "cover": "assets/covers/yalin_sensiz-olmaz.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/27t7YHIlw0u1uVO302wpvD"
+    }
+  },
+  {
+    "id": "volkan-konak_aleni-aleni",
+    "artist": "Volkan Konak",
+    "project": "Aleni Aleni",
+    "type": "single",
+    "year": 2015,
+    "role": "SYNTHESIZER & Ses Tasarımı",
+    "size": "orta",
+    "gridPosition": "O1",
+    "cover": "assets/covers/volkan-konak_aleni-aleni.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/0Jn6LasVbDhI1ZyWEuOK7B"
+    }
+  },
+  {
+    "id": "pamela_bu-devirde-ask",
+    "artist": "Pamela",
+    "project": "Bu Devirde Aşk",
+    "type": "single",
+    "year": 2024,
+    "role": "Prodüktör",
+    "size": "orta",
+    "gridPosition": "O2",
+    "cover": "assets/covers/pamela_bu-dervirde-ask.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/4uIKUbqvf0yqB4tklGFWQe"
+    }
+  },
+  {
+    "id": "ugur-etiler_duo",
+    "artist": "Uğur Etiler",
+    "project": "Duo",
+    "type": "ep",
+    "year": 2025,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "orta",
+    "gridPosition": "O3",
+    "cover": "assets/covers/ugur-etiler_duo.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/50O7TKyDZmkxW662f8j2pE"
+    }
+  },
+  {
+    "id": "ugur-etiler_veryansin",
+    "artist": "Uğur Etiler",
+    "project": "Veryansın",
+    "type": "single",
+    "year": 2024,
+    "role": "Prodüktör",
+    "size": "orta",
+    "gridPosition": "O4",
+    "cover": "assets/covers/ugur-etiler_veryansın.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/3E10iGlyXfCm0wB1C4aeMr"
+    }
+  },
+  {
+    "id": "maderzat_maderzat",
+    "artist": "Maderzat",
+    "project": "Maderzat",
+    "type": "album",
+    "year": 2025,
+    "role": "Prodüktör",
+    "size": "orta",
+    "gridPosition": "O5",
+    "cover": "assets/covers/maderzat_maderzat.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6FV2HXjqR34d6VF2Ans64a"
+    }
+  },
+  {
+    "id": "alper-yilmaz_seven-neden-gider-ki",
+    "artist": "Alper Yılmaz",
+    "project": "Seven Neden Gider Ki?",
+    "type": "single",
+    "year": 2023,
+    "role": "Prodüktör",
+    "size": "orta",
+    "gridPosition": "O6",
+    "cover": "assets/covers/alper-yilmaz_seven-neden-gider-ki.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/5snfbs2E59BQgWmezotj3h"
+    }
+  },
+  {
+    "id": "nev_kiyisiz-deniz",
+    "artist": "Nev",
+    "project": "Kıyısız Deniz",
+    "type": "album",
+    "year": 2014,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "orta",
+    "gridPosition": "O7",
+    "cover": "assets/covers/nev_kiyisiz-deniz.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/1yNOr21bUsvJT8QAWn0KzQ"
+    }
+  },
+  {
+    "id": "maderzat_ayrilik",
+    "artist": "Maderzat",
+    "project": "Ayrılık",
+    "type": "album",
+    "year": 2025,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "orta",
+    "gridPosition": "O8",
+    "cover": "assets/covers/maderzat_ayrilik.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/0Ex0zsQbmltpw4bXRIsELe"
+    }
+  },
+  {
+    "id": "nina_mesafeler",
+    "artist": "Ni.Na",
+    "project": "Mesafeler",
+    "type": "single",
+    "year": 2024,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K1",
+    "cover": "assets/covers/nina_mesafeler.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/6ML1XtMdwqTQ8gPOhusbiU"
+    }
+  },
+  {
+    "id": "elis-beylice_kahir",
+    "artist": "Elis Beylice",
+    "project": "Kahır",
+    "type": "single",
+    "year": 2024,
+    "role": "Söz · Müzik · Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K2",
+    "cover": "assets/covers/elis-beylice_kahir.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/3VVesnzdA0RNpvEIRn4wX7"
+    }
+  },
+  {
+    "id": "pinar-minaz_dedikodu",
+    "artist": "Pınar Minaz",
+    "project": "Dedikodu",
+    "type": "single",
+    "year": 2021,
+    "role": "Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K3",
+    "cover": "assets/covers/pinar-minaz_dedikodu.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/2qg97tokqosOqlJy2iqrxh"
+    }
+  },
+  {
+    "id": "burak-aygun_icim-icime-sigmiyor",
+    "artist": "Burak Aygün",
+    "project": "İçim İçime Sığmıyor",
+    "type": "single",
+    "year": 2025,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K4",
+    "cover": "assets/covers/burak-aygun_icim-icime-sıgmıyor.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/6I3sOBZGIceSs2oUfkdbsM"
+    }
+  },
+  {
+    "id": "alper-yilmaz_mutlu-yara",
+    "artist": "Alper Yılmaz",
+    "project": "Mutlu Yara",
+    "type": "single",
+    "year": 2022,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K5",
+    "cover": "assets/covers/alper-yilmaz_mutlu-yara.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/3rugZlUNAsnjTGZRHifutZ"
+    }
+  },
+  {
+    "id": "alper-yilmaz_deva",
+    "artist": "Alper Yılmaz",
+    "project": "Deva",
+    "type": "single",
+    "year": 2025,
+    "role": "Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K6",
+    "cover": "assets/covers/alper-yilmaz_deva.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/1GLGPDTITQfvAC5FJqKvkj"
+    }
+  },
+  {
+    "id": "maderzat_gamze",
+    "artist": "Maderzat",
+    "project": "Gamze",
+    "type": "single",
+    "year": 2025,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K7",
+    "cover": "assets/covers/maderzat_gamze.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/5hShDBQOWzPxmSRqA7ZcDf"
+    }
+  },
+  {
+    "id": "maderzat_napim-tabiatim-boyle",
+    "artist": "Maderzat",
+    "project": "N'apim Tabiatım Böyle",
+    "type": "single",
+    "year": 2024,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K8",
+    "cover": "assets/covers/maderzat_napim-tabiatim-boyle.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6sJjvxNSzLbHdtfEHdu9SQ"
+    }
+  },
+  {
+    "id": "dengi-dengine_firavun-sezar",
+    "artist": "Dengi Dengine",
+    "project": "Firavun Sezar",
+    "type": "single",
+    "year": 2023,
+    "role": "SYNTHESIZER & Ses Tasarımı",
+    "size": "kucuk",
+    "gridPosition": "K9",
+    "cover": "assets/covers/dengi-dengine_firavun-sezar.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/3ZXtoyn4mgvfa9akBD4XOg"
+    }
+  },
+  {
+    "id": "dengi-dengine_yok-mu-bir-duyan",
+    "artist": "Dengi Dengine",
+    "project": "Yok Mu Bir Duyan?",
+    "type": "single",
+    "year": 2023,
+    "role": "SYNTHESIZER & Ses Tasarımı",
+    "size": "kucuk",
+    "gridPosition": "K10",
+    "cover": "assets/covers/dengi-dengine_yok-mu-bir-duyan.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/5Ru1TXjOdSeBwKHDYDxFhk"
+    }
+  },
+  {
+    "id": "laf-aramizda_halimiz",
+    "artist": "Laf Aramızda",
+    "project": "Halimiz",
+    "type": "single",
+    "year": 2025,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K11",
+    "cover": "assets/covers/laf-aramizda_halimiz.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/3cYKux4CwBr8LHKkas6y8Z"
+    }
+  },
+  {
+    "id": "nina_engel",
+    "artist": "Ni.Na",
+    "project": "Engel",
+    "type": "single",
+    "year": 2024,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K12",
+    "cover": "assets/covers/nina_engel.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/2jRSvXOz7PKjXF1TiOjjZ3"
+    }
+  },
+  {
+    "id": "maderzat_duse-kalka",
+    "artist": "Maderzat",
+    "project": "Düşe Kalka",
+    "type": "single",
+    "year": 2025,
+    "role": "Prodüksiyon & Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K13",
+    "cover": "assets/covers/maderzat_duse-kalka.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/album/40DD9QJSk1ob7GcXyl4a2Y"
+    }
+  },
+  {
+    "id": "alaturca-connection_bos-ver-be-istanbul",
+    "artist": "Alaturca Connection",
+    "project": "Boş ver Be İstanbul",
+    "type": "single",
+    "year": 2023,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K14",
+    "cover": "assets/covers/alaturca-connection_bos-ver-be-istanbul.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/2pUIAOg1sd3hx7NXj821pm"
+    }
+  },
+  {
+    "id": "pinar-minaz_imdat",
+    "artist": "Pınar Minaz",
+    "project": "İmdat",
+    "type": "single",
+    "year": 2022,
+    "role": "Prodüktör",
+    "size": "kucuk",
+    "gridPosition": "K16",
+    "cover": "assets/covers/pinar-minaz_imdat.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/45P9dlQpCyWPU0x3KNTqPt"
+    }
+  },
+  {
+    "id": "alper-yilmaz_veryansin",
+    "artist": "Alper Yılmaz",
+    "project": "Veryansın",
+    "type": "single",
+    "year": 2025,
+    "role": "Düzenleme",
+    "size": "kucuk",
+    "gridPosition": "K15",
+    "cover": "assets/covers/alper-yilmaz_veryansin.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/track/0AD3yboqFZZfK0FMqcGnFc"
+    }
+  }
+]
