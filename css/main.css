@@ -179,6 +179,7 @@ body::after {
 .header--dark-section .hamburger::before,
 .header--dark-section .hamburger::after {
   background-color: var(--color-white);
+  opacity: 0.5;
 }
 
 .header__inner {
@@ -697,6 +698,7 @@ main > section.is-active {
 .takvim__inner {
   max-width: var(--content-max-width);
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* Event Row */
@@ -750,6 +752,8 @@ main > section.is-active {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .takvim__logo-link {
@@ -757,6 +761,8 @@ main > section.is-active {
   align-items: center;
   justify-content: center;
   transition: opacity 0.3s ease;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .takvim__logo-link:hover {
@@ -766,15 +772,17 @@ main > section.is-active {
 .takvim__logo {
   object-fit: contain;
   mix-blend-mode: multiply;
+  max-width: 100%;
+  height: auto;
 }
 
 .takvim__logo.logo-vertical {
-  max-height: 116px;
-  max-width: 116px;
+  width: 116px;
+  max-width: 100%;
 }
 
 .takvim__logo.logo-horizontal {
-  max-height: 40px;
+  height: 40px;
   max-width: 200px;
 }
 
@@ -1017,6 +1025,7 @@ main > section.is-active {
   .takvim__venue,
   .takvim__tba-text {
     justify-self: start;
+    word-break: break-word;
   }
 
   .takvim__logo-wrap {
@@ -1044,22 +1053,407 @@ main > section.is-active {
 
 /* ── Takvim Responsive — Mobile (<=520px) ── */
 @media (max-width: 520px) {
+  .takvim {
+    padding: clamp(80px, 14vw, 120px) var(--section-padding-x) var(--section-padding-y);
+  }
+
   .takvim__date {
     font-size: 1.5rem;
   }
 
   .takvim__row {
+    grid-template-columns: 1fr;
     padding: 24px 0;
-    gap: 12px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .takvim__venue,
+  .takvim__tba-text {
+    justify-self: center;
+    font-size: 1rem;
+  }
+
+  .takvim__logo-wrap {
+    justify-content: center;
+    grid-column: 1 / -1;
+  }
+
+  .takvim__logo.logo-vertical {
+    width: 80px;
+    max-width: 80px;
+  }
+
+  .takvim__logo.logo-horizontal {
+    height: 28px;
+    max-width: 150px;
+  }
+
+  .takvim__actions {
+    justify-content: center;
+    grid-column: 1 / -1;
+    gap: 20px;
+  }
+
+  .takvim__details-btn {
+    font-size: 13px;
+  }
+
+  .takvim__ticket-btn {
+    font-size: 12px;
+    padding: 6px 16px;
   }
 
   .takvim-modal__content {
     width: 95%;
   }
 
+  .takvim-modal__poster {
+    min-height: 140px;
+  }
+
   .takvim-modal__info {
     padding: 24px 20px;
     gap: 20px;
+  }
+}
+
+/* ── SECTION: Medya ── */
+.medya {
+  padding: 0;
+}
+
+/* Split Landing */
+.medya__landing {
+  position: absolute;
+  inset: 0;
+  display: flex;
+}
+
+.medya__panel {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.medya__panel-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%) contrast(1.1);
+  transition: filter 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform, filter;
+}
+
+.medya__panel--studio .medya__panel-bg {
+  background-position: center 0%;
+}
+
+.medya__panel-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: background 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.medya__panel:hover .medya__panel-bg {
+  filter: grayscale(0%) contrast(1.05);
+  transform: scale(1.03);
+}
+
+.medya__panel:hover .medya__panel-overlay {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.medya__panel-divider {
+  width: 0.5px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.medya__panel-label {
+  position: absolute;
+  z-index: 3;
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.85;
+  transition: letter-spacing 0.3s ease, opacity 0.3s ease;
+}
+
+.medya__panel:hover .medya__panel-label {
+  letter-spacing: 0.35em;
+  opacity: 1;
+}
+
+.medya__panel-label--studio {
+  bottom: 40px;
+  right: 40px;
+  font-family: var(--font-serif-date);
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.35em;
+  opacity: 0.5;
+}
+
+.medya__panel-label--stage {
+  top: 40px;
+  right: 40px;
+  font-family: var(--font-serif-date);
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.35em;
+  opacity: 0.5;
+  white-space: pre-line;
+  text-align: right;
+}
+
+/* Landing exit animation */
+.medya__landing.is-exiting {
+  animation: medyaLandingExit 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes medyaLandingExit {
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+.medya__landing.is-hidden {
+  display: none;
+}
+
+/* Gallery View */
+.medya__gallery {
+  display: none;
+  padding: 100px 24px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+.medya__gallery.is-active {
+  display: block;
+  animation: medyaGalleryIn 0.5s 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes medyaGalleryIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gallery Navigation */
+.medya__gallery-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.medya__back-btn {
+  font-family: var(--font-serif-date);
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--color-black);
+  opacity: 0.7;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: opacity 0.3s ease;
+  animation: medyaBackIn 0.4s 0.2s ease backwards;
+}
+
+.medya__back-btn:hover {
+  opacity: 1;
+}
+
+.medya__back-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.medya__back-btn:hover .medya__back-arrow {
+  transform: translateX(-4px);
+}
+
+@keyframes medyaBackIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+}
+
+.medya__gallery-title {
+  display: none;
+}
+
+/* Grid — masonry-style with fine rows */
+.medya__grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 10px;
+  gap: 4px;
+}
+
+.medya__grid-item {
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.medya__grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%) contrast(1.05);
+  transition: filter 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform, filter;
+}
+
+.medya__grid-item:hover img {
+  filter: grayscale(0%) contrast(1);
+  transform: scale(1.04);
+}
+
+/* Staggered reveal */
+.medya__grid-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease,
+              filter 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.medya__grid-item.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Lightbox */
+.medya__lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.medya__lightbox.is-open {
+  display: flex;
+  animation: medyaLbIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes medyaLbIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.medya__lightbox-bg {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.96);
+  cursor: zoom-out;
+}
+
+.medya__lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  z-index: 201;
+  font-size: 28px;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  line-height: 1;
+}
+
+.medya__lightbox-close:hover {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.medya__lightbox-img {
+  position: relative;
+  z-index: 201;
+  max-width: 92vw;
+  max-height: 92vh;
+  object-fit: contain;
+  animation: medyaLbImg 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes medyaLbImg {
+  from { transform: scale(0.94); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* ── Medya Responsive — Mobile (<=768px) ── */
+@media (max-width: 768px) {
+  .medya__landing {
+    flex-direction: column;
+  }
+
+  .medya__panel {
+    min-height: 50vh;
+  }
+
+  .medya__panel-divider {
+    width: 100%;
+    height: 2px;
+  }
+
+  .medya__panel-label {
+    font-size: 11px;
+  }
+
+  .medya__panel-label--studio {
+    top: 24px;
+    left: 24px;
+  }
+
+  .medya__panel-label--stage {
+    bottom: 24px;
+    right: 24px;
+  }
+
+  .medya__gallery {
+    padding: 80px 12px 40px;
+  }
+
+  .medya__grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 10px;
+  }
+
+  .medya__grid-item {
+    grid-column: span 3 !important;
+  }
+
+  .medya__grid-item:first-child {
+    grid-column: span 6 !important;
   }
 }
 
@@ -1887,7 +2281,15 @@ input:focus:not(:focus-visible) {
     color: #0a0a0a !important;
   }
 
-  img:not(.works__card-image) {
+  img:not(.works__card-image):not(.medya__lightbox-img) {
     filter: none !important;
+  }
+
+  .medya__grid-item img {
+    filter: grayscale(100%) contrast(1.05) !important;
+  }
+
+  .medya__grid-item:hover img {
+    filter: grayscale(0%) contrast(1) !important;
   }
 }

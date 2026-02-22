@@ -1,0 +1,47 @@
+{
+  "studio": {
+    "cover": "assets/images/media/covers/studyo_cover_01.jpg",
+    "photos": [
+      {
+        "id": "s01",
+        "thumb": "assets/images/media/studyo/studyo_control-room_01.jpg",
+        "full": "assets/images/media/studyo/studyo_control-room_01.jpg",
+        "aspect": "landscape",
+        "gridColumn": "1 / 8"
+      },
+      {
+        "id": "s02",
+        "thumb": "assets/images/media/studyo/studyo_rhodes_01.jpg",
+        "full": "assets/images/media/studyo/studyo_rhodes_01.jpg",
+        "aspect": "portrait",
+        "gridColumn": "8 / 13"
+      },
+      {
+        "id": "s03",
+        "thumb": "assets/images/media/studyo/studyo_rhodes_02.jpg",
+        "full": "assets/images/media/studyo/studyo_rhodes_02.jpg",
+        "aspect": "portrait",
+        "gridColumn": "1 / 7"
+      }
+    ]
+  },
+  "stage": {
+    "cover": "assets/images/media/covers/kulis-sahne_cover_01.jpg",
+    "photos": [
+      {
+        "id": "k01",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_gitar_01.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_gitar_01.jpg",
+        "aspect": "portrait",
+        "gridColumn": "1 / 6"
+      },
+      {
+        "id": "k02",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_kolaj_01.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_kolaj_01.jpg",
+        "aspect": "portrait",
+        "gridColumn": "6 / 13"
+      }
+    ]
+  }
+}

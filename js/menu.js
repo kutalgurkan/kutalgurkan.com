@@ -62,6 +62,16 @@
       target.classList.add('is-active');
     }
 
+    // Dark section header (e.g. medya)
+    var header = document.querySelector('.header');
+    if (header) {
+      if (targetId === 'medya') {
+        header.classList.add('header--dark-section');
+      } else {
+        header.classList.remove('header--dark-section');
+      }
+    }
+
     // Update active link
     navLinks.forEach(function (link) {
       link.classList.remove('active');
