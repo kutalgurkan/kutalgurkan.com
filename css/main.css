@@ -1054,7 +1054,13 @@ main > section.is-active {
 /* ── Takvim Responsive — Mobile (<=520px) ── */
 @media (max-width: 520px) {
   .takvim {
-    padding: clamp(80px, 14vw, 120px) var(--section-padding-x) var(--section-padding-y);
+    display: flex;
+    align-items: center;
+    padding: 0 var(--section-padding-x);
+  }
+
+  .takvim__inner {
+    width: 100%;
   }
 
   .takvim__date {
@@ -1063,8 +1069,8 @@ main > section.is-active {
 
   .takvim__row {
     grid-template-columns: 1fr;
-    padding: 24px 0;
-    gap: 10px;
+    padding: 36px 0;
+    gap: 16px;
     text-align: center;
   }
 
@@ -1090,9 +1096,11 @@ main > section.is-active {
   }
 
   .takvim__actions {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     grid-column: 1 / -1;
-    gap: 20px;
+    gap: 12px;
   }
 
   .takvim__details-btn {
@@ -1101,7 +1109,7 @@ main > section.is-active {
 
   .takvim__ticket-btn {
     font-size: 12px;
-    padding: 6px 16px;
+    padding: 8px 24px;
   }
 
   .takvim-modal__content {
