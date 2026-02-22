@@ -1433,18 +1433,29 @@ main > section.is-active {
     height: 2px;
   }
 
-  .medya__panel-label {
-    font-size: 11px;
-  }
-
   .medya__panel-label--studio {
-    top: 24px;
-    left: 24px;
+    bottom: 24px;
+    right: 24px;
+    font-family: var(--font-serif-date);
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0.35em;
+    opacity: 0.5;
   }
 
   .medya__panel-label--stage {
+    top: auto;
+    right: auto;
     bottom: 24px;
-    right: 24px;
+    left: 24px;
+    font-family: var(--font-serif-date);
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0.35em;
+    opacity: 0.5;
+    text-align: left;
   }
 
   .medya__gallery {
