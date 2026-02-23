@@ -10,7 +10,7 @@
   "nav": {
     "home": { "tr": "Ana Sayfa", "en": "Home", "de": "Startseite", "es": "Inicio" },
     "about": { "tr": "Hakkımda", "en": "About", "de": "Über mich", "es": "Sobre mí" },
-    "works": { "tr": "İşler", "en": "Works", "de": "Arbeiten", "es": "Trabajos" },
+    "works": { "tr": "Projeler", "en": "Projects", "de": "Projekte", "es": "Proyectos" },
     "calendar": { "tr": "Takvim", "en": "Calendar", "de": "Kalender", "es": "Calendario" },
     "media": { "tr": "Medya", "en": "Media", "de": "Medien", "es": "Medios" },
     "shop": { "tr": "Mağaza", "en": "Shop", "de": "Shop", "es": "Tienda" },
