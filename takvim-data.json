@@ -1,16 +1,68 @@
 {
   "events": [
     {
+      "id": "evt-004",
+      "status": "confirmed",
+      "date": {
+        "display": {
+          "tr": "15 May.26",
+          "en": "15 May.26",
+          "de": "15 Mai.26",
+          "es": "15 May.26"
+        },
+        "iso": "2026-05-15"
+      },
+      "venue": {
+        "name": "Kadıköy Sahne",
+        "city": {
+          "tr": "İstanbul",
+          "en": "Istanbul",
+          "de": "Istanbul",
+          "es": "Estambul"
+        }
+      },
+      "artist": {
+        "name": "Maderzat",
+        "logo": "assets/images/logos/takvim/Maderzat_LOGO_cropped.png",
+        "logoOrientation": "horizontal",
+        "profileUrl": "https://www.instagram.com/maderzatofficial/"
+      },
+      "details": {
+        "datetime": {
+          "tr": "15 Mayıs 2026, Cuma — 22:00",
+          "en": "Friday, May 15, 2026 — 22:00",
+          "de": "Freitag, 15. Mai 2026 — 22:00",
+          "es": "Viernes, 15 de mayo de 2026 — 22:00"
+        },
+        "address": "Kadıköy Sahne, İstanbul",
+        "notes": null,
+        "poster": "assets/images/logos/takvim/kadıkoysahne_maderzat.png"
+      },
+      "ticketUrl": "https://www.biletix.com/etkinlik/5LD28/TURKIYE/tr",
+      "detailsButtonText": {
+        "tr": "Detaylar",
+        "en": "Details",
+        "de": "Details",
+        "es": "Detalles"
+      },
+      "ticketButtonText": {
+        "tr": "Bilet",
+        "en": "Tickets",
+        "de": "Tickets",
+        "es": "Entradas"
+      }
+    },
+    {
       "id": "evt-002",
       "status": "tba",
       "date": {
         "display": {
-          "tr": "Mar.26",
-          "en": "Mar.26",
-          "de": "Mär.26",
-          "es": "Mar.26"
+          "tr": "May.26",
+          "en": "May.26",
+          "de": "Mai.26",
+          "es": "May.26"
         },
-        "iso": "2026-03-01"
+        "iso": "2026-05-01"
       },
       "venue": {
         "name": null,
@@ -36,12 +88,12 @@
       "status": "tba",
       "date": {
         "display": {
-          "tr": "Nis.26",
-          "en": "Apr.26",
-          "de": "Apr.26",
-          "es": "Abr.26"
+          "tr": "May.26",
+          "en": "May.26",
+          "de": "Mai.26",
+          "es": "May.26"
         },
-        "iso": "2026-04-01"
+        "iso": "2026-05-01"
       },
       "venue": {
         "name": null,
