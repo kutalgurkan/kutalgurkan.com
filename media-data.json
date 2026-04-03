@@ -30,17 +30,52 @@
     "photos": [
       {
         "id": "k01",
-        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_gitar_01.jpg",
-        "full": "assets/images/media/kulis-sahne/kulis-sahne_gitar_01.jpg",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_01.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_01.jpg",
         "aspect": "portrait",
         "gridColumn": "1 / 6"
       },
       {
         "id": "k02",
-        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_kolaj_01.jpg",
-        "full": "assets/images/media/kulis-sahne/kulis-sahne_kolaj_01.jpg",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_02.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_02.jpg",
         "aspect": "portrait",
         "gridColumn": "6 / 13"
+      },
+      {
+        "id": "k03",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_03.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_03.jpg",
+        "aspect": "portrait",
+        "gridColumn": "1 / 5"
+      },
+      {
+        "id": "k04",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_04.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_04.jpg",
+        "aspect": "portrait",
+        "gridColumn": "5 / 9"
+      },
+      {
+        "id": "k05",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_05.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_05.jpg",
+        "aspect": "portrait",
+        "gridColumn": "9 / 13"
+      },
+      {
+        "id": "k06",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_06.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_06.jpg",
+        "aspect": "portrait",
+        "gridColumn": "1 / 7"
+      },
+      {
+        "id": "k07",
+        "thumb": "assets/images/media/kulis-sahne/kulis-sahne_07.jpg",
+        "full": "assets/images/media/kulis-sahne/kulis-sahne_07.jpg",
+        "aspect": "portrait",
+        "gridColumn": "7 / 13"
       }
     ]
   }
