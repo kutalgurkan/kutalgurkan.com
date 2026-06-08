@@ -2391,3 +2391,32 @@ input:focus:not(:focus-visible) {
     filter: grayscale(0%) contrast(1) !important;
   }
 }
+
+/* ── Logo-only mode ─────────────────────────────
+   Add class="logo-only" to <body> to show only
+   the monogram. Remove the class to restore site.
+   ──────────────────────────────────────────────── */
+body.logo-only .hamburger,
+body.logo-only .nav-menu,
+body.logo-only .about,
+body.logo-only .isler,
+body.logo-only .takvim,
+body.logo-only .medya,
+body.logo-only .kutico,
+body.logo-only .magaza,
+body.logo-only .iletisim,
+body.logo-only footer {
+  display: none !important;
+}
+
+body.logo-only {
+  overflow: hidden;
+}
+
+body.logo-only .hero {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-white);
+}
