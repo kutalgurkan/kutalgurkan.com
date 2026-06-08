@@ -2399,12 +2399,12 @@ input:focus:not(:focus-visible) {
 body.logo-only .hamburger,
 body.logo-only .nav-menu,
 body.logo-only .about,
-body.logo-only .isler,
+body.logo-only .works,
 body.logo-only .takvim,
 body.logo-only .medya,
 body.logo-only .kutico,
-body.logo-only .magaza,
-body.logo-only .iletisim,
+body.logo-only .placeholder-section,
+body.logo-only .contact,
 body.logo-only footer {
   display: none !important;
 }
